@@ -2,8 +2,26 @@
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
+    "version": "0.2.0",    
     "configurations": [
+        {
+            "name": "Arguments",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Arguments/Arguments.csproj"
+        },
+        {
+            "name": "Formatting",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Formatting/Formatting.csproj"
+        },
+        {
+            "name": "Variables",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Variables/Variables.csproj"
+        },
         {
             "name": "Vocablurary",
             "type": "dotnet",
@@ -16,6 +34,7 @@
             "request": "launch",
             "projectPath": "${workspaceFolder}/Numbers/Numbers.csproj"
         }
+
 
     ]
 }
